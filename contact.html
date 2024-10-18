@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact page</title>
+        <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-12 col-lg-1">   
+        <nav>
+                <a href="index.html">Home</a>
+                <a href="cv.html">CV</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+        
+    
+    <div class="col-12 col-lg-11">
+
+        <main>
+        <h1>Contact page</h1>
+        <p>Here is a contact form:</p>
+        <form action ="#" method="post">
+            <label for="name">Name: </label> <input type="text" id="name" name="name" placeholder="(name)" required><br>
+            <label for="email">Email: </label> <input type="email" id="email" name="email" placeholder="(email)"><br>
+            <label for="age">Age: </label> <input type="number" id="age" name="age" placeholder="(age)"><br><br>
+            
+            
+            <label for="where_heard">Where did you hear about this page?</label><br>
+            <input type="radio" id="google" name="where_heard" value="google"> <label for="google">Google</label>
+            <input type="radio" id="friend" name="where_heard" value="friend"> <label for="friend">From a friend</label>
+            <input type="radio" id="linkedin" name="where_heard" value="linkedin"> <label for="linkedin">LinkedIn</label>
+            <input type="radio" id="other" name="where_heard" value="other"> <label for="other">Other</label><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="(message)"></textarea><br><br>
+            
+            <button type="submit">Submit </button> <button type="reset">Clear form</button>
+        </form>
+    </main>
+    </div></div>
+    </body>
+</html>
